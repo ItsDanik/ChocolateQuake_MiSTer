@@ -1,0 +1,8 @@
+# The games of this core, a line each: <id>|<title> (hybrid/README.md,
+# "Several games in one core"). Each is a menu entry, _Other/dnk-<title>.mgl;
+# with several, its set name is ChocolateQuake_<id> (short: 31 characters at most in
+# all). The zip has these lines as games/dnk/ChocolateQuake/games.txt, from which the
+# database makes the launcher's catalogue (hybrid/launcher/distribution.py).
+QUAKE|Quake
+HIPNOTIC|Quake - Scourge of Armagon
+ROGUE|Quake - Dissolution of Eternity
