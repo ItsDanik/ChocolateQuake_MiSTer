@@ -13,6 +13,9 @@ Game files
     Quake shareware           id1 (pak0.pak alone)
     Scourge of Armagon        hipnotic, next to the full game's id1
     Dissolution of Eternity   rogue, next to the full game's id1
+  From Steam or GOG (the 2021 re-release): the folders of the install
+  folder itself (Quake/id1, and hipnotic and rogue where it has them), not
+  those in its rerelease folder, which do not run here.
   They can go on a USB drive instead, in
   /media/usb0/games/dnk/ChocolateQuake/.
 

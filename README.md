@@ -37,6 +37,8 @@ With `update_all` (Downloader 2.4 or newer, which update_all keeps up to date):
    | Scourge of Armagon | `hipnotic`, next to the full game's `id1` |
    | Dissolution of Eternity | `rogue`, next to the full game's `id1` |
 
+   From Steam or GOG, where Quake is the 2021 re-release, copy the folders of the install folder itself (`Quake/id1`, and `hipnotic` and `rogue` where it has them), not those in its `rerelease` folder: the re-release's own files are made for its new engine and do not run here.
+
    The music, where your copy has it as files (`music/track02.ogg` and on, Ogg Vorbis, MP3, FLAC or WAV), comes with the folder it is in.
 5. Load the game from the `Other` menu, e.g. **dnk-Quake**.
 

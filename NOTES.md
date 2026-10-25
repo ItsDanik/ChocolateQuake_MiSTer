@@ -13,7 +13,7 @@ The game is [Chocolate Quake](https://github.com/Henrique194/chocolate-quake) wi
 - **Cheats** (`Host_MiSTerCheats()` in `host_cmd.c`): the switches run Quake's `god`, `noclip` and `notarget` on the local server whenever the player's state differs from the OSD, again on every level; the triggers are `impulse 9`, `impulse 255`, health and armor set directly, and the level's exit (the `trigger_changelevel` whose map comes first by name, so never the secret one).
 - **Rumble** (`MiSTer_Rumble*()` in `mister_port.c`): hits from the damage the server reports, shots from how far the weapon kicks the view, hard landings from their sounds, explosions by their distance.
 - **Music**: Chocolate Quake plays the CD's tracks from `music/trackNN.*`. The MiSTer has no libvorbis, libFLAC or libmad, so `snd_mister.c` decodes with the single-file decoders of SDL2_mixer's source (stb_vorbis, dr_flac, minimp3).
-- **Game data**: `MiSTer_SelectGame()` picks the game (`MH_PickGame()`) and adds `-basedir .` and `-hipnotic` / `-rogue`; folder and pak names are found in any case (`COM_FindCase()` in `com_fs.c`), since CD copies have `ID1/PAK0.PAK`.
+- **Game data**: `MiSTer_SelectGame()` picks the game (`MH_PickGame()`) and adds `-basedir .` and `-hipnotic` / `-rogue`; folder, pak and file names are found in any case (`COM_FindCase()` and `COM_FindPathCase()` in `com_fs.c`), since CD copies have `ID1/PAK0.PAK` and music may come as `MUSIC/TRACK02.OGG`.
 
 ### Frame pacing
 
