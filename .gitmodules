@@ -4,5 +4,5 @@
 	branch = main
 [submodule "chocolatequake"]
 	path = chocolatequake
-	url = /home/danik/chocolate-quake
+	url = https://github.com/ItsDanik/chocolate-quake.git
 	branch = mister
